@@ -1,0 +1,16 @@
+{
+  "ordinal": "23",
+  "questionText": "Which statements about the following class are true? (Choose all that apply.)",
+  "codeSnippet": "1: public class River {\n2:     int Depth = 1;\n3:     float temp = 50.0;\n4: \n5:     public void flow() {\n6:         for (int i = 0; i < 1; i++) {\n7:             int depth = 2;\n8:             depth++;\n9:             temp--;\n10:        }\n11:        System.out.println(depth);\n12:        System.out.println(temp);\n13:     }\n14: \n15:     public static void main(String... s) {\n16:         new River().flow();\n17:     }\n18: }",
+  "choices": [
+    "A. Line 3 generates a compiler error.",
+    "B. Line 6 generates a compiler error.",
+    "C. Line 7 generates a compiler error.",
+    "D. Line 10 generates a compiler error.",
+    "E. The program prints 3 on line 10.",
+    "F. The program prints 4 on line 10.",
+    "G. The program prints 50.0 on line 11.",
+    "H. The program prints 49.0 on line 11."
+  ],
+  "answers": ["D", "E", "H"]
+}

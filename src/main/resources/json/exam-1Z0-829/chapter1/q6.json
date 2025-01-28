@@ -1,0 +1,15 @@
+{
+  "ordinal": "6",
+  "questionText": "Assuming the following class compiles, how many variables defined in the class or method are in scope on the line marked on line 14?",
+  "codeSnippet": "1: public class Camel {\n2:     { int hairs = 3_000_0; }\n3:     long water, air2;\n4:     boolean twoHumps = true;\n5: \n6:     public void spit(float distance) {\n7:         var path = \"\";\n8:         { double teeth = 32 + distance++; }\n9:         while(water > 0) {\n10:            int age = twoHumps ? 1 : 2;\n11:            short i = -1;\n12:            for(i = 0; i < 10; i++) {\n13:                var Private = 2;\n14:                // SCOPE\n15:            }\n16:        }\n17:    }\n18: }",
+  "choices": [
+    "A. 2",
+    "B. 3",
+    "C. 4",
+    "D. 5",
+    "E. 6",
+    "F. 7",
+    "G. None of the above"
+  ],
+  "answers": ["E"]
+}

@@ -1,0 +1,14 @@
+{
+  "ordinal": "11",
+  "questionText": "Given the following two class files, what is the maximum number of imports that can be removed and have the code still compile?",
+  "codeSnippet": "// Water.java\npackage aquarium;\npublic class Water { }\n\n// Tank.java\npackage aquarium;\nimport java.lang.*;\nimport java.lang.System;\nimport aquarium.Water;\nimport aquarium.*;\n\npublic class Tank {\n    public void print(Water water) {\n        System.out.println(water);\n    }\n}",
+  "choices": [
+    "A. 0",
+    "B. 1",
+    "C. 2",
+    "D. 3",
+    "E. 4",
+    "F. Does not compile"
+  ],
+  "answers": ["E"]
+}

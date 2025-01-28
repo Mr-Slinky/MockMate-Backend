@@ -1,0 +1,16 @@
+{
+  "ordinal": "21",
+  "questionText": "What is the output of executing the following class?",
+  "codeSnippet": "1: public class Salmon {\n2:     int count;\n3:     { System.out.print(count + \"-\"); }\n4:     { count++; }\n5: \n6:     public Salmon() {\n7:         count = 4;\n8:         System.out.print(2 * count + \"-\");\n9:     }\n10: \n11:    public static void main(String[] args) {\n12:        System.out.print(7 + \"-\");\n13:        var s = new Salmon();\n14:        System.out.print(s.count + \"-\");\n15:    }\n16: }",
+  "choices": [
+    "A. 7-0-2-1-",
+    "B. 7-0-1-",
+    "C. 0-7-2-1-",
+    "D. 7-0-2-4-",
+    "E. 0-7-1-",
+    "F. The class does not compile because of line 3.",
+    "G. The class does not compile because of line 4.",
+    "H. None of the above."
+  ],
+  "answers": ["D"]
+}

@@ -1,0 +1,13 @@
+{
+  "ordinal": "19",
+  "questionText": "Which are true about the following code? (Choose all that apply.)",
+  "codeSnippet": "var num1 = Long.parseLong(\"100\");\nvar num2 = Long.valueOf(\"100\");\n\nSystem.out.println(Long.max(num1, num2));",
+  "choices": [
+    "A. The output is 100.",
+    "B. The output is 200.",
+    "C. The code does not compile.",
+    "D. num1 is a primitive.",
+    "E. num2 is a primitive."
+  ],
+  "answers": ["A", "D"]
+}

@@ -1,0 +1,15 @@
+{
+  "ordinal": "5",
+  "questionText": "Which statements about the following program are correct? (Choose all that apply.)",
+  "codeSnippet": "2: public class Bear {\n3:     private Bear pandaBear;\n4: \n5:     private void roar(Bear b) {\n6:         System.out.println(\"Roar!\");\n7:         pandaBear = b;\n8:     }\n9: \n10:    public static void main(String[] args) {\n11:        Bear brownBear = new Bear();\n12:        Bear polarBear = new Bear();\n13:        brownBear.roar(polarBear);\n14:        polarBear = null;\n15:        brownBear = null;\n16:        System.gc();\n17:    }\n18: }",
+  "choices": [
+    "A. The object created on line 9 is eligible for garbage collection after line 13.",
+    "B. The object created on line 9 is eligible for garbage collection after line 14.",
+    "C. The object created on line 10 is eligible for garbage collection after line 12.",
+    "D. The object created on line 10 is eligible for garbage collection after line 13.",
+    "E. Garbage collection is guaranteed to run.",
+    "F. Garbage collection might or might not run.",
+    "G. The code does not compile."
+  ],
+  "answers": ["A", "D", "F"]
+}

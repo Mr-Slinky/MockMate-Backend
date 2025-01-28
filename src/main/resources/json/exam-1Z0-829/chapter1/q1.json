@@ -1,0 +1,14 @@
+{
+  "ordinal": "1",
+  "questionText": "Which of the following are legal entry point methods that can be run from the command line? (Choose all that apply.)",
+  "codeSnippet": null,
+  "choices": [
+    "A. private static void main(String[] args)",
+    "B. public static final main(String[] args)",
+    "C. public void main(String[] args)",
+    "D. public static final void main(String[] args)",
+    "E. public static void main(String[] args)",
+    "F. public static main(String[] args)"
+  ],
+  "answers": ["E", "D"]
+}

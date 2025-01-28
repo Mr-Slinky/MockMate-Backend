@@ -1,0 +1,23 @@
+# Ignore all java class files
+*.class
+
+# Ignore all log files
+*.log
+
+# Ignore all temporary files
+*.tmp
+
+# Ignore the build directory
+/build/
+
+# Ignore the target directory
+/target/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar

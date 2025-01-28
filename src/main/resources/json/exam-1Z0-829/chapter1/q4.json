@@ -1,0 +1,15 @@
+{
+  "ordinal": "4",
+  "questionText": "Which of the following are valid Java identifiers? (Choose all that apply.)",
+  "codeSnippet": null,
+  "choices": [
+    "A. _",
+    "B. _helloWorld$",
+    "C. true",
+    "D. java.lang",
+    "E. Public",
+    "F. 1980_s",
+    "G. Q2"
+  ],
+  "answers": ["A", "B", "F", "G"]
+}

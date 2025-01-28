@@ -1,0 +1,15 @@
+{
+  "ordinal": "2",
+  "questionText": "Which answer options represent the order in which the following statements can be assembled into a program that will compile successfully? (Choose all that apply.)",
+  "codeSnippet": "x: class Rabbit {}\nY: import java.util.*;\nZ: package animals;",
+  "choices": [
+    "A. X, Y, Z",
+    "B. Y, Z, X",
+    "C. Z, Y, X",
+    "D. Z, X",
+    "E. Z, X, Y",
+    "F. X, Z",
+    "G. None of the above"
+  ],
+  "answers": ["C", "D", "E"]
+}

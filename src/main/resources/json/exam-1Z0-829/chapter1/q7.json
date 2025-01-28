@@ -1,0 +1,14 @@
+{
+  "ordinal": "7",
+  "questionText": "Which are true about this code? (Choose all that apply.)",
+  "codeSnippet": "public class KitchenSink {\n    private int numForks;\n\n    public static void main(String[] args) {\n        int numKnives;\n\n        System.out.print(\"\"\"\n            # forks = \" + numForks + \"\n            # knives = \" + numKnives + \"\n            # cups = 0\"\"\");\n    }\n}",
+  "choices": [
+    "A. The output includes: # forks = 0.",
+    "B. The output includes: # knives = 0.",
+    "C. The output includes: # cups = 0.",
+    "D. The output includes a blank line.",
+    "E. The output includes one or more lines that begin with whitespace.",
+    "F. The code does not compile."
+  ],
+  "answers": ["F"]
+}

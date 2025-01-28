@@ -1,0 +1,14 @@
+{
+  "ordinal": "16",
+  "questionText": "Which are true about this code? (Choose all that apply.)",
+  "codeSnippet": "var blocky = \"\"\"\n    squirrel \\s\n    pigeon \\\n    termite\"\"\";\n\nSystem.out.print(blocky);",
+  "choices": [
+    "A. It outputs two lines.",
+    "B. It outputs three lines.",
+    "C. It outputs four lines.",
+    "D. There is one line with trailing whitespace.",
+    "E. There are two lines with trailing whitespace.",
+    "F. If we indented each line five characters, it would change the output."
+  ],
+  "answers": ["B", "D"]
+}

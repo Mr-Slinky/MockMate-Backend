@@ -1,0 +1,16 @@
+{
+  "ordinal": "22",
+  "questionText": "Given the following class, which of the following lines of code can independently replace INSERT CODE HERE to make the code compile? (Choose all that apply.)",
+  "codeSnippet": "public class Price {\n\n    public void admission() {\n        INSERT CODE HERE\n        System.out.print(amount);\n    }\n}",
+  "choices": [
+    "A. int amount = 0b11;",
+    "B. int amount = 9L;",
+    "C. int amount = 0xE;",
+    "D. int amount = 1_2.0;",
+    "E. double amount = 1_0._0;",
+    "F. int amount = 0b101;",
+    "G. double amount = 9_2.1_2;",
+    "H. double amount = 1_2._0;"
+  ],
+  "answers": ["A", "C", "F"]
+}

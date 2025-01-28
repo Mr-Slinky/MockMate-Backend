@@ -1,0 +1,16 @@
+{
+  "ordinal": "20",
+  "questionText": "Which statements about the following class are correct? (Choose all that apply.)",
+  "codeSnippet": "1: public class PoliceBox {\n2:     String color;\n3:     long age;\n4: \n5:     public void PoliceBox() {\n6:         color = \"blue\";\n7:         age = 1200;\n8:     }\n9: \n10:    public static void main(String[] time) {\n11:        var p = new PoliceBox();\n12:        var q = new PoliceBox();\n13:        p.color = \"green\";\n14:        p.age = 1400;\n15:        p = q;\n16: \n17:        System.out.println(\"q1=\" + q.color);\n18:        System.out.println(\"q2=\" + q.age);\n19:        System.out.println(\"p1=\" + p.color);\n20:        System.out.println(\"p2=\" + p.age);\n21:    }\n22: }",
+  "choices": [
+    "A. It prints q1=blue.",
+    "B. It prints q2=1200.",
+    "C. It prints p1=null.",
+    "D. It prints p2=1400.",
+    "E. Line 4 does not compile.",
+    "F. Line 12 does not compile.",
+    "G. Line 13 does not compile.",
+    "H. None of the above."
+  ],
+  "answers": ["A", "B", "C"]
+}

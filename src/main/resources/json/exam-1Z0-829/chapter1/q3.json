@@ -1,0 +1,15 @@
+{
+  "ordinal": "3",
+  "questionText": "Which of the following are true? (Choose all that apply.)",
+  "codeSnippet": "public class Bunny {\n    public static void main(String[] x) {\n        Bunny bun = new Bunny();\n    }\n}",
+  "choices": [
+    "A. Bunny is a class.",
+    "B. bun is a class.",
+    "C. main is a class.",
+    "D. Bunny is a reference to an object.",
+    "E. bun is a reference to an object.",
+    "F. main is a reference to an object.",
+    "G. The main() method doesn't run because the parameter name is incorrect."
+  ],
+  "answers": ["A", "E"]
+}

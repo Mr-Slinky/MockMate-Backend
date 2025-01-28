@@ -1,0 +1,16 @@
+{
+  "ordinal": "12",
+  "questionText": "Which statements about the following class are correct? (Choose all that apply.)",
+  "codeSnippet": "1: public class ClownFish {\n2:     int gills = 0, double weight = 2;\n3:     { int fins = gills; }\n4:     \n5:     void print(int length = 3) {\n6:         System.out.println(gills);\n7:         System.out.println(weight);\n8:         System.out.println(fins);\n9:         System.out.println(length);\n10:     }\n11: }",
+  "choices": [
+    "A. Line 2 generates a compiler error.",
+    "B. Line 3 generates a compiler error.",
+    "C. Line 4 generates a compiler error.",
+    "D. Line 7 generates a compiler error.",
+    "E. The code prints 0.",
+    "F. The code prints 2.0.",
+    "G. The code prints 2.",
+    "H. The code prints 3."
+  ],
+  "answers": ["A", "B", "C"]
+}

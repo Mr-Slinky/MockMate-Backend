@@ -1,0 +1,16 @@
+{
+  "ordinal": "17",
+  "questionText": "What lines are printed by the following program? (Choose all that apply.)",
+  "codeSnippet": "1: public class WaterBottle {\n2:     private String brand;\n3:     private boolean empty;\n4:     public static float code;\n5: \n6:     public static void main(String[] args) {\n7:         WaterBottle wb = new WaterBottle();\n8:         System.out.println(\"Empty = \" + wb.empty);\n9:         System.out.println(\"Brand = \" + wb.brand);\n10:        System.out.println(\"Code = \" + code);\n11:     }\n12: }",
+  "choices": [
+    "A. Line 8 generates a compiler error.",
+    "B. Line 9 generates a compiler error.",
+    "C. Empty =",
+    "D. Empty = false",
+    "E. Brand =",
+    "F. Brand = null",
+    "G. Code = 0.0",
+    "H. Code = 0f"
+  ],
+  "answers": ["D", "F", "G"]
+}

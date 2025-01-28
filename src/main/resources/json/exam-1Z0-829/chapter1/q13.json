@@ -1,0 +1,14 @@
+{
+  "ordinal": "13",
+  "questionText": "Given the following classes, which of the following snippets can independently be inserted in place of INSERT IMPORTS HERE and have the code compile? (Choose all that apply.)",
+  "codeSnippet": "package aquarium;\npublic class Water {\n    boolean salty = false;\n}\n\npackage aquarium.jellies;\npublic class Water {\n    boolean salty = true;\n}\n\npackage employee;\nINSERT IMPORTS HERE\npublic class WaterFiller {\n    Water water;\n}",
+  "choices": [
+    "A. import aquarium.*;",
+    "B. import aquarium.Water;\n   import aquarium.jellies.*;",
+    "C. import aquarium.*;\n   import aquarium.jellies.Water;",
+    "D. import aquarium.*;\n   import aquarium.jellies.*;",
+    "E. import aquarium.Water;\n   import aquarium.jellies.Water;",
+    "F. None of these imports can make the code compile."
+  ],
+  "answers": ["B", "C", "E"]
+}

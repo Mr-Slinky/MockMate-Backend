@@ -1,0 +1,14 @@
+{
+  "ordinal": "14",
+  "questionText": "Which of the following statements about the code snippet are true? (Choose all that apply.)",
+  "codeSnippet": "3: short numPets = 5L;\n4: int numGrains = 2.0;\n5: String name = \"Scruffy\";\n6: int d = numPets.length();\n7: int e = numGrains.length;\n8: int f = name.length();",
+  "choices": [
+    "A. Line 3 generates a compiler error.",
+    "B. Line 4 generates a compiler error.",
+    "C. Line 5 generates a compiler error.",
+    "D. Line 6 generates a compiler error.",
+    "E. Line 7 generates a compiler error.",
+    "F. Line 8 generates a compiler error."
+  ],
+  "answers": ["A", "B", "D", "E"]
+}
